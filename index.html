@@ -1,8 +1,298 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+
+      <title> WELCOME TO MY WEBSITE!!! </title>
+      <link rel=”shortcut icon” href=”https://64.media.tumblr.com/tumblr_md4y2e6VAE1r52dl9.gif”>
+
+
    </head>
+
+         <!--falling stuff code we stan altan d.o.o.-->
+          
+         <script type="text/javascript">
+ 
+            /******************************************
+            * Snow Effect Script- By Altan d.o.o. (http://www.altan.hr/snow/index.html)
+            * Visit Dynamic Drive DHTML code library (http://www.dynamicdrive.com/) for full source code
+            * Last updated Nov 9th, 05' by DD. This notice must stay intact for use
+            ******************************************/
+             
+              // THE GREEN URL BELOW IS WHERE YOU PUT THE URL OF THE IMAGE YOU WANT TO REPLACE THE SNOWFLAKES WITH
+              var snowsrc="https://64.media.tumblr.com/tumblr_lngpm936rJ1qfel73.gif"
+              // YOU CAN CHANGE THE YELLOW 10 BELOW TO HOW MANY SNOWFLAKES YOU WANT TO BE ON YOUR BLOG
+              var no = 70;
+              // Snow will disappear after __ seconds
+              var hidesnowtime = 0;
+              // How much snow should will drop down before fading: either "windowheight" or "pageheight"
+              var snowdistance = "pageheight";
+             
+            ///////////Stop Config//////////////////////////////////
+             
+              var ie4up = (document.all) ? 1 : 0;
+              var ns6up = (document.getElementById&&!document.all) ? 1 : 0;
+             
+                function iecompattest(){
+               return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+               }
+             
+              var dx, xp, yp;    // coordinate and position variables
+              var am, stx, sty;  // amplitude and step variables
+              var i, doc_width = 800, doc_height = 600; 
+             
+              if (ns6up) {
+                doc_width = self.innerWidth;
+                doc_height = self.innerHeight;
+              } else if (ie4up) {
+                doc_width = iecompattest().clientWidth;
+                doc_height = iecompattest().clientHeight;
+              }
+             
+              dx = new Array();
+              xp = new Array();
+              yp = new Array();
+              am = new Array();
+              stx = new Array();
+              sty = new Array();
+              snowsrc=(snowsrc.indexOf("dynamicdrive.com")!=-1)? "snow.gif" : snowsrc
+              for (i = 0; i < no; ++ i) {  
+                dx[i] = 0;                        // set coordinate variables
+                xp[i] = Math.random()*(doc_width-50);  // set position variables
+                yp[i] = Math.random()*doc_height;
+                am[i] = Math.random()*20;         // set amplitude variables
+                stx[i] = 0.02 + Math.random()/10; // set step variables
+                sty[i] = 0.7 + Math.random();     // set step variables
+                  if (ie4up||ns6up) {
+                  if (i == 0) {
+                    document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"http://www.snazzyspace.com\"><img src='"+snowsrc+"' border=\"0\"><\/a><\/div>");
+                  } else {
+                    document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src='"+snowsrc+"' border=\"0\"><\/div>");
+                  }
+                }
+              }
+              function snowIE_NS6() {  // IE and NS6 main animation function
+                doc_width = ns6up?window.innerWidth-10 : iecompattest().clientWidth-10;
+                  doc_height=(window.innerHeight && snowdistance=="windowheight")? window.innerHeight : (ie4up && snowdistance=="windowheight")?  iecompattest().clientHeight : (ie4up && !window.opera && snowdistance=="pageheight")? iecompattest().scrollHeight : iecompattest().offsetHeight;
+                for (i = 0; i < no; ++ i) {  // iterate for every dot
+                  yp[i] += sty[i];
+                  if (yp[i] > doc_height-50) {
+                    xp[i] = Math.random()*(doc_width-am[i]-30);
+                    yp[i] = 0;
+                    stx[i] = 0.02 + Math.random()/10;
+                    sty[i] = 0.7 + Math.random();
+                  }
+                  dx[i] += stx[i];
+                  document.getElementById("dot"+i).style.top=yp[i]+"px";
+                  document.getElementById("dot"+i).style.left=xp[i] + am[i]*Math.sin(dx[i])+"px";  
+                }
+                snowtimer=setTimeout("snowIE_NS6()", 10);
+              }
+             
+               function hidesnow(){
+                  if (window.snowtimer) clearTimeout(snowtimer)
+                  for (i=0; i<no; i++) document.getElementById("dot"+i).style.visibility="hidden"
+               }
+             
+             
+            if (ie4up||ns6up){
+                snowIE_NS6();
+                  if (hidesnowtime>0)
+                  setTimeout("hidesnow()", hidesnowtime*1000)
+                  }
+             
+            </script>
+
+
+
+
+
+      <!--falling stuff code end-->
    <body>
-      <!-- Write your HTML in this file! -->
+      
+
+      <h1>ようこそわが家へ</h1>
+
+      <img src="https://thumbs.gfycat.com/ImportantMarriedEgret-max-1mb.gif" alt="kissyhamtaro" width="100" height="50"> <form action="https://www.paypal.com/donate" method="post" target="_top">
+         <input type="hidden" name="business" value="J2NVASFZSC7JJ" />
+         <input type="hidden" name="no_recurring" value="0" />
+         <input type="hidden" name="item_name" value="It still has my fucking deadname on it!! absolutely disgraceful!!! I'M MICAH SHIOMI! it's processing my name change on paypal!!!
+         " />
+         <input type="hidden" name="currency_code" value="USD" />
+         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+         <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+         </form>
+
+      <main>
+
+         <img src="https://64.media.tumblr.com/9db1f82d9ddeeed576aa46ea90f6d0c3/tumblr_inline_mlb1t9rLe81qz4rgp.gif" alt="kawaii divider 2"><img src="https://64.media.tumblr.com/9db1f82d9ddeeed576aa46ea90f6d0c3/tumblr_inline_mlb1t9rLe81qz4rgp.gif" alt="kawaii divider 2"><img src="https://64.media.tumblr.com/9db1f82d9ddeeed576aa46ea90f6d0c3/tumblr_inline_mlb1t9rLe81qz4rgp.gif" alt="kawaii divider 2">
+         <br>
+
+      <!-- <audio id="musicplayer" autoplay>
+         <source src="/audio/boysrback">
+       </audio> not working -->
+
+<!-- 
+      <dialog open style="float:left"><ol>DO YOU?
+         <li>FEEL BURNT OUT?</li>
+         <li>NEED A BREAK?</li> 
+         <br>
+         JOIN THE CLUB!
+      </ol></dialog> -->
+   
+      <button id="myBtn">!! CLICK !!</button>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+      
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p><ol>DO YOU?
+             <br>
+             <br><li>FEEL BURNT OUT?</li>
+            <li>NEED A BREAK?</li> 
+            <br>
+            JOIN THE CLUB!
+         </ol></p>
+        </div>
+      
+      </div>
+      
+      <script>
+      var modal = document.getElementById("myModal");
+      
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks on the button, open the modal
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }</script>
+      
+ 
+
+      <figure><img src = "https://kawaiiyuri.com/fishy/messages/doll002.gif" alt = "Blond but dumb" width="300" height="300"></figure>
+
+      <section><p id="welcomeEtc">hi, welcome to my website
+         <br>my name is micah and i'm 24 years YOUNG!
+         <br>i finally got to make the "my first website" i have always wanted to!!!!</p>
+
+
+
+         <p id="noCrit">~~~ no constructive criticism ~~~</p>
+         <br> <img src="https://gigaplus.makeshop.jp/chiikawa/shop/haaaa.gif" alt="kurimanju">
+         <br>
+         <p id="almost"><img src="https://media.discordapp.net/attachments/838266639467544586/939696198657404958/text_3.gif" alt="happily almost married"></p>
+
+   
+         
+
+      </section> </p>
+      <img src="https://64.media.tumblr.com/c31b05df90982198b4da6a0ae0c13956/tumblr_inline_mlb1tb9GN81qz4rgp.gif" alt="kawaii star divider"><img src="https://64.media.tumblr.com/c31b05df90982198b4da6a0ae0c13956/tumblr_inline_mlb1tb9GN81qz4rgp.gif" alt="kawaii star divider"><img src="https://64.media.tumblr.com/c31b05df90982198b4da6a0ae0c13956/tumblr_inline_mlb1tb9GN81qz4rgp.gif" alt="kawaii star divider">
+      <article><section><p id="gwenStefani">
+         have you heard of Gwen Stefani? 
+         honestly, i really dig her music, and she's super pretty too. 
+         one thing is that a while ago she kinda had this iffy phase where she had some backup dancers
+         called the "harajuku girls", and it was like a not-hot attempt at marketing
+         a specific subset of alternative japanese fashion. so all her backup dancers
+         were japanese and had weird pet names and idk man like it just wasnt it.
+         so if i could go back in time and meet gwen stefani, i'd try to get her to not do that,
+         but i'd also try to be friends with her, even though i would've been like 9. 
+         <br>also, no, we don't talk about blake shelton.
+
+      </p></section></article>
+      
+      <img src="http://img.photobucket.com/albums/v252/shaquanda/dumpitydump/anotherdumpingfolder/OngiriLine.gif" alt="onigiris"><img src="http://img.photobucket.com/albums/v252/shaquanda/dumpitydump/anotherdumpingfolder/OngiriLine.gif" alt="onigiris"><img src="http://img.photobucket.com/albums/v252/shaquanda/dumpitydump/anotherdumpingfolder/OngiriLine.gif" alt="onigiris">
+
+      <article><p id="drawing">i like to draw and i am heavily influenced by anime and manga because i am a "weeaboo".
+         but not really. i mean probably. but not like the type that fetishizes japan. i'm not 13 anymore. 
+         even though i've been drawing forever i'm not even that good, and it pisses me off and creates a lot 
+         of my insecurities and my feeling of never being able to improve in any aspect of my life. 
+         
+         <img src = "https://media.discordapp.net/attachments/838266639467544586/939680087186477106/text_2.gif" alt = "THE SONG 'NO SCRUBS' BY T.L.C. WAS ACTUALLY WRITTEN ABOUT ME!">
+      </p></article>
+
+      <form action="https://www.paypal.com/donate" method="post" target="_top">
+         <input type="hidden" name="business" value="J2NVASFZSC7JJ" />
+         <input type="hidden" name="no_recurring" value="0" />
+         <input type="hidden" name="item_name" value="It still has my fucking deadname on it!! absolutely disgraceful!!! I'M MICAH SHIOMI! it's processing my name change on paypal!!!
+         " />
+         <input type="hidden" name="currency_code" value="USD" />
+         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+         <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+         </form>
+
+      <main>
+
+      <img src="https://64.media.tumblr.com/78c761a27be4c65fee949676852712ad/tumblr_inline_mlb1zwEcDP1qz4rgp.gif" alt="kawaii yellow ribbon divider">
+      <img src="https://64.media.tumblr.com/998eeb10c90b83d7f823681cdcc39653/tumblr_inline_owb47liIoH1rhwzwl_75sq.png" alt="very tiny cat">
+      <img src="https://64.media.tumblr.com/78c761a27be4c65fee949676852712ad/tumblr_inline_mlb1zwEcDP1qz4rgp.gif" alt="kawaii yellow ribbon divider">
+      <img src="https://64.media.tumblr.com/998eeb10c90b83d7f823681cdcc39653/tumblr_inline_owb47liIoH1rhwzwl_75sq.png" alt="very tiny cat">
+      <img src="https://64.media.tumblr.com/78c761a27be4c65fee949676852712ad/tumblr_inline_mlb1zwEcDP1qz4rgp.gif" alt="kawaii yellow ribbon divider">
+
+      <article><p id="shoutOutToSara">
+         !!THIS SECTION IS DEDICATED TO SARA!!
+         <br>not my sister-in-law sarah (luv u sis), but the DM of a D&D campaign that has been so patient
+         with me taking for EVER to finish up my CHARACTER. he is a hot but brainless, strong but soft gnoll. 
+         let me know if you wanna see the drawing i'm working on of him.
+         <br>THANK YOU SO MUCH SARA for being so kind and understanding. 
+         SHOUT OUT TO SARA!! 
+         <br>SHE IS VERY CUTE, KIND, AND SMART. SHE LIVES IN CANADA NOW. 
+      </p></article>
+
+      <img src="https://64.media.tumblr.com/9db1f82d9ddeeed576aa46ea90f6d0c3/tumblr_inline_mlb1t9rLe81qz4rgp.gif" alt="kawaii divider 2"><img src="https://64.media.tumblr.com/9db1f82d9ddeeed576aa46ea90f6d0c3/tumblr_inline_mlb1t9rLe81qz4rgp.gif" alt="kawaii divider 2"><img src="https://64.media.tumblr.com/9db1f82d9ddeeed576aa46ea90f6d0c3/tumblr_inline_mlb1t9rLe81qz4rgp.gif" alt="kawaii divider 2">
+
+      <article>
+         <img src="https://gigaplus.makeshop.jp/chiikawa/shop/hyoko_178.gif" alt="hiyoko" style="float:left">
+         <h2 id="funFacts">FUN FACTS ABOUT THE AUTHOR</h2>
+         <ul class="factsList">
+            <li>i have 6 beautiful cats and they are MY LIFE</li>
+            <li>i am only 5 feet tall!!!</li> 
+            <li>one of the cutest human boys discovered so far on earth (hubris: also one of the most annoying)</li>
+            <li>one day i will win the lottery but first i need a job so i can afford to play</li>
+            <li>i like pokemon, animal crossing, rune factory, and the legend of zelda series</li>
+            <li>been learning japanese for 10 years</li>
+            <li><img src="https://kawaiiyuri.com/fishy/messages/doll021.gif" alt = "i hate school"></li>
+            <img src="https://img1.picmix.com/output/pic/normal/3/8/3/4/10354383_a7d88.gif" alt="neko collage">
+
+
+
+         </ul></article>
+            <img src="https://64.media.tumblr.com/d961947418e6f9f2ed57ffe98fa99496/tumblr_inline_n37t9kLv4H1qhwjx8.gif" alt="kawaii cat divider"><img src="https://64.media.tumblr.com/d961947418e6f9f2ed57ffe98fa99496/tumblr_inline_n37t9kLv4H1qhwjx8.gif" alt="kawaii cat divider">
+         <article><p id="nihongo">
+            やや、もちろんなにか日本語で書こうとするで!
+            <br>今の、、なんか、、ボクに大ヒットなことは「ちいかわ」とーゆー漫画で!
+            <br>
+            <br>心の中で、ちいかわが何か治せる者だと思う。
+            <br>鬱病など、ストレスがたまっている時にも、ちいかわのおかげで生きてゆける。
+            <br>もちいいいろん、旦那にもお世話になってる、ずっと!!!!!!!
+            <br>まっく、愛してるで!!!!!!
+
+            <br><img src="https://data.bloggif.com/distant/user/store/9/a/6/3/377c0ae75877550b9ccb616a1f5336a9.gif" alt="Mounting created Bloggif" width="281" height="281" />
+
+         </p></article>
+   
+      </main>
+
+      <footer>thank &yen;ou for &copy;he&copy;king out m&yen; website
+         <br><img src="https://64.media.tumblr.com/ca334d807b0ce54c9b29139b03ad631f/tumblr_inline_mww33lynwv1r0jzp4.gif" alt="arigatougozaimashita">
+      </footer>
+
    </body>
 </html>
