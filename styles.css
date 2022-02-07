@@ -1,1 +1,133 @@
 /* Write your CSS here! */
+
+
+
+html{
+    cursor: url('https://64.media.tumblr.com/tumblr_m990f6XBwk1qid2nw.gif'), default;
+ }
+
+
+@font-face {
+    font-family: pixel;
+    src: url('/fonts/pixelmix.ttf');
+}
+
+body {
+    text-align: center;
+	width: 100%;
+	max-width: 1024px;
+	margin: 8px;
+    display: block;
+	background-color: rgb(255, 241, 118);
+	font-size: "";
+    font: pixel;
+}
+
+
+body {
+    background-image: url("https://i.pinimg.com/originals/48/9b/f5/489bf56a918d9ea4a331964a533cebb7.png");
+    background-repeat: repeat;
+  }
+
+#mainHeading {
+    background-image: linear-gradient(rgb(255, 0, 179), rgba(0, 225, 255,));
+    color: red
+
+}
+
+p {
+    color: "";
+}
+
+#welcomeEtc {
+    background-image: repeating-radial-gradient(rgb(255, 234, 43), rgb(245, 255, 112));
+    color:rgb(15, 6, 94)
+}
+
+#noCrit {
+    color:rgb(255, 0, 149);
+    font-size: 2em;
+    background-image: url("https://kawaiiyuri.com/fishy/backgrounds/ani/animated_35.gif");
+}
+
+#almost {
+    background-image: url("https://kawaiiyuri.com/fishy/backgrounds/ani/back17.gif");
+}
+
+#gwenStefani {
+    color: rgb(201, 0, 0);
+    background-image: linear-gradient(rgb(255, 184, 217), rgb(255, 96, 229));
+}
+
+.testP {
+    color:green;
+    background-image: radial-gradient(rgb(16, 219, 255), rgb(238, 255, 0));
+}
+
+#shoutOutToSara {
+    background-image: repeating-linear-gradient(rgb(183, 0, 255), rgb(67, 89, 190));
+    color: #fff;
+    margin: 6;
+}
+
+#funFacts {
+    color: yellow;
+}
+
+.factsList {
+    color: rgb(255, 0, 157);
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+#nihongo {
+    color:rgb(0, 255, 229);
+    background-image: url("https://64.media.tumblr.com/e405e647203d9a98a59aea9935515f65/tumblr_inline_ml2ghv3pVP1rfdbtm.gif");
+    text-decoration-color: violet;
+}
+
+footer {
+    font-size: 0.9em;
+    color:yellow;
+}
+
+
+
+/* got the modal stuff from w3c */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #f7dede;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid rgb(255, 0, 149);
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: rgb(0, 238, 255);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
