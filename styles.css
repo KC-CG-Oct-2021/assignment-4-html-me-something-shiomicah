@@ -16,7 +16,8 @@ body {
     text-align: center;
 	width: 100%;
 	max-width: 1024px;
-	margin: 0 auto;
+	margin: 8px;
+    display: block;
 	background-color: rgb(255, 241, 118);
 	font-size: "";
     font: pixel;
@@ -28,10 +29,9 @@ body {
     background-repeat: repeat;
   }
 
-h1 {
-    background-color: aquamarine;
+#mainHeading {
     background-image: linear-gradient(rgb(255, 0, 179), rgba(0, 225, 255,));
-    color: magenta;
+    color: red
 
 }
 
@@ -55,8 +55,8 @@ h1 {
     background-image: linear-gradient(rgb(255, 184, 217), rgb(255, 96, 229));
 }
 
-#drawing {
-    color:royalblue;
+#funParagraph {
+    color:green;
     background-image: radial-gradient(rgb(16, 219, 255), rgb(238, 255, 0));
 }
 
@@ -71,7 +71,7 @@ h1 {
 }
 
 .factsList {
-    color: green;
+    color: rgb(255, 0, 157);
     background-color: rgb(255, 255, 255, 0.5);
 }
 
